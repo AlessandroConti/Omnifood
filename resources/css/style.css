@@ -198,3 +198,34 @@ header{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+
+/*--------------------------------------------------*/
+/*MEALS*/
+/*--------------------------------------------------*/
+
+.section-meals{
+    padding: 0;
+}
+
+.meals-show{
+    list-style: none;
+    width: 100%;
+}
+
+.meals-show li{
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-img{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.meal-img img{
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+}
